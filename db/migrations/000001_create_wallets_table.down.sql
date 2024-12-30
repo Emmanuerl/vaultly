@@ -1,0 +1,7 @@
+BEGIN;
+
+DROP TABLE IF EXISTS wallets CASCADE;
+
+DROP FUNCTION IF EXISTS on_update_timestamp cascade;
+
+COMMIT;
